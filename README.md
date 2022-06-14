@@ -2,4 +2,5 @@
 ## Matheus Rodrigues Cunha Coelho
 Repositório ATV2 - Sistemas Embarcados 1 - UFU
 
-Esta atividade tem como objetivo 
+Repositório criado para o desenvolvimento da ATV2 da disciplina SEMB I. 
+Essa atividade tem como objetivo configurar o pino PA0 para que ele seja responsável por alterar a velocidade com que o LED da blackpill pisca.
