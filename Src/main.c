@@ -1,6 +1,6 @@
 #include <stdint.h>
-#include <stdlib.h>
 #include <stdbool.h>
+#include <stdlib.h>
 
 /* AHB1 Base Addresses ******************************************************/
 #define STM32_RCC_BASE 0x40023800 /* 0x40023800-0x40023bff: Reset and Clock control RCC */
@@ -66,9 +66,6 @@
 
 #define LOW_DELAY 10000
 #define HIGH_DELAY 1000
-
-static const char fw_version[] = {'V', '1', '.', '0'};
-static uint32_t led_status;
 
 void delay(uint32_t tick)
 {
